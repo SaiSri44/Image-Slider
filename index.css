@@ -1,0 +1,136 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  overflow: hidden;
+}
+.container1
+{
+     /* visibility: hidden; */
+    animation: slide1 12s infinite;
+}
+.container2
+{
+  animation: slide2 12s infinite;
+}
+.container3
+{
+  animation: slide2 12s infinite;
+}
+.container4
+{
+  animation: slide2 12s infinite;
+}
+img
+{
+  height: 100vh;
+  width: 100%;
+  position: absolute;
+  /* animation: zoom 3s infinite; */
+}
+
+.content {
+  width: 500px;
+  position: absolute;
+  top: 40%;
+  left: 20%;
+}
+.content h1 {
+  color: white;
+  margin-bottom: 20px;
+  width: 150px;
+  border-bottom: 3px solid green;
+}
+.content p {
+  color: white;
+  font-size: 30px;
+  line-height: 45px;
+  font-style: italic;
+}
+.container1
+{
+    animation: slide1 12s linear infinite;
+}
+.container2
+{
+    animation: slide2 12s linear infinite;
+}
+.container3
+{
+    animation: slide3 12s linear infinite;
+}
+.container4
+{
+    animation: slide4 12s linear infinite;
+}
+
+ @keyframes slide1 
+ {
+  0% {
+    visibility: visible;
+  }
+
+  25% {
+    visibility: hidden;
+  }
+  50% {
+    visibility : hidden;
+  }
+  75% {
+    visibility: hidden;
+  }
+  100% {
+    visibility: visible;
+  }
+ }
+@keyframes slide2 {
+  0% {
+    visibility: hidden;
+  }
+  25% {
+    visibility: hidden;
+  }
+  50% {
+    visibility: visible;
+  }
+  75% {
+    visibility: hidden;
+  }
+  100% {
+    visibility: hidden;
+  }
+}
+@keyframes slide3 {
+  0% {
+    visibility: hidden;
+  }
+  25% {
+    visibility: hidden;
+  }
+  50% {
+    visibility: hidden;
+  }
+  75% {
+    visibility: visible;
+  }
+  100% {
+    visibility: hidden;
+  }
+}
+
+@keyframes slide4 {
+  0% {
+    visibility: hidden;
+  }
+  25% {
+    visibility: hidden;
+  }
+  50% {
+    visibility: hidden;
+  }
+  75% {
+    visibility: hidden;
+  }
+  100% {
+    visibility: visible;
+  }
+}
